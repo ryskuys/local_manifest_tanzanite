@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="ryskuys"
+             fetch="https://github.com/ryskuys/"
+             revision="lineage-21.0" />
+
+    <remote name="TogoFire"
+             fetch="https://github.com/TogoFire" />
+
+    
+    <remote name="xiaomi-mediatek-devs" 
+            fetch="https://github.com/xiaomi-mediatek-devs" 
+            revision="lineage-21.0"/>
+
+
+    <project path="device/xiaomi/tanzanite" name="android_device_xiaomi_tanzanite" remote="ryskuys" />
+    <project path="kernel/xiaomi/tanzanite" name="android_kernel_tanzanite-prebuilt" remote="ryskuys" />
+
+    <project path="vendor/xiaomi/tanzanite" name="proprietary_vendor_xiaomi_tanzanite" remote="ryskuys" />
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="xiaomi-mediatek-devs" />
+
+    <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" revision="v4a" />  
+</manifest>
