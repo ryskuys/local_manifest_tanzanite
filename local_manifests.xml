@@ -20,5 +20,8 @@
     <project path="vendor/xiaomi/tanzanite" name="proprietary_vendor_xiaomi_tanzanite" remote="ryskuys" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="xiaomi-mediatek-devs" />
 
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="ryskuys" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ryskuys" />
+
     <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" revision="v4a" />  
 </manifest>
