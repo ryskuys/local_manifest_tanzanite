@@ -13,6 +13,9 @@
     <remote name="LineageOS"
             fetch="https://github.com/LineageOS" />
 
+    <remote name="Goog"
+            fetch="https://android.googlesource.com">
+
 
     <!-- Device, kernel, vendor lo -->
     <project path="device/xiaomi/tanzanite"
@@ -20,10 +23,10 @@
              remote="ryskuys"
              revision="lineage-21.0" />
 
-    <project path="kernel/xiaomi/tanzanite"
-             name="kernel_xiaomi_tanzanite_prebuilt"
-             remote="ryskuys"
-             revision="lineage-21.0" />
+    <project path="device/xiaomi/tanzanite-kernel"
+             name="kernel/common"
+             remote="Goog"
+             revision="common-android13-5.10" />
 
     <project path="vendor/xiaomi/tanzanite"
              name="proprietary_vendor_xiaomi_tanzanite"
